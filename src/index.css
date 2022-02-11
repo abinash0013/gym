@@ -149,6 +149,21 @@ nav .menu-btn,
     letter-spacing: 2px;
     color: #ffffff;
 }
+.header-heading {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+/* .header-heading h1 {
+    font-size: 50px;
+} */
+.header-heading span {
+    color: #ff1414;
+    padding-right: 8px;
+}
 .header-btns {
     display: flex;
     margin-top: 40px;
