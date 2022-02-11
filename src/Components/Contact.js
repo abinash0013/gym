@@ -8,7 +8,7 @@ function Contact() {
                 <input type="text" placeholder="Full Name" required />
                 <input type="email" placeholder="Type Your E-mail" required />
                 <textarea
-                    placeholder="Write Somethings...!"
+                    placeholder="Write Somethings. . ."
                     name="message"
                 ></textarea>
                 <input type="submit" value="send" />
