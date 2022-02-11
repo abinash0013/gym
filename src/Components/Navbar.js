@@ -14,7 +14,7 @@ function Navbar() {
     window.addEventListener("scroll", changeBackground);
     return (
         <nav className={nav ? "nav active" : "nav"}>
-            <Link to="#" className="logo">
+            <Link to="main" className="logo">
                 <img src={logo} alt="" />
             </Link>
             <input className="menu-btn" type="checkbox" id="menu-btn" />
@@ -23,19 +23,19 @@ function Navbar() {
             </label>
             <ul className="menu">
                 <li>
-                    <Link to="#">Home</Link>
+                    <Link to="main">Home</Link>
                 </li>
                 <li>
-                    <Link to="#">Features</Link>
+                    <Link to="features">Features</Link>
                 </li>
                 <li>
-                    <Link to="#">Offer</Link>
+                    <Link to="offer">Offer</Link>
                 </li>
                 <li>
-                    <Link to="#">About</Link>
+                    <Link to="about">About</Link>
                 </li>
                 <li>
-                    <Link to="#">Contact</Link>
+                    <Link to="contact">Contact</Link>
                 </li>
             </ul>
         </nav>

@@ -1,15 +1,14 @@
 import React from "react";
 
-function Header() {
+function Offer() {
     return (
-        <div id="main">
+        <div id="offer">
             <div className="pr-heading">
-                <h2>STEP UP YOUR</h2>
                 <h1>
-                    <span>FITNESS</span>WITH US
+                    A BIG<span>OFFER</span>FOR THIS SUMMER
                 </h1>
                 <p className="details">
-                    Build Your Body And Fitness with Professional Touch
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 </p>
                 <div className="pr-btns">
                     <a href="#" className="pr-btn">
@@ -21,4 +20,4 @@ function Header() {
     );
 }
 
-export default Header;
+export default Offer;
