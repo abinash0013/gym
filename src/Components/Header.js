@@ -12,7 +12,7 @@ function Header() {
                     Build Your Body And Fitness with Professional Touch
                 </p>
                 <div className="pr-btns">
-                    <a href="#" className="pr-btn">
+                    <a href="/" className="pr-btn">
                         JOIN NOW
                     </a>
                 </div>
