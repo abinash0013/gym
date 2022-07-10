@@ -14,7 +14,7 @@ function About() {
                     typesetting industry. Lorem Ipsum has been the industry's
                     standard dummy text ever{" "}
                 </p>
-                <a href="#" className="pr-btn">
+                <a href="/" className="pr-btn">
                     Read More
                 </a>
             </div>
